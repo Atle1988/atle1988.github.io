@@ -1,19 +1,45 @@
+/* Sushma kode starter her  */
+h1{
+    border: 20px;
+    background-color: burlywood;
+    font-size: 50px;
+    color:brown;
+    margin: 20px 20px 0 20px;
+    padding: 20px 20px 20px 20px;
+    border-style: solid ;
+    
+}  
+     
+.floatright
+{
+    float:right;
+     
+}                         
+        
+
+ small{
+     margin-left: 50px;
+     color:olive;
+      }
+ 
+        .img {
+                
+                 border: 20px double olive;
+                 
+             }
+/* ---- / Sushma kode slutter her ------- */
+
+/* ----- Atle's kode starer her */
 * {
     margin: 0;
 }
 
-header {
-    background-color: black;
-    color: olive;
-    font-family: fantasy;
-    text-align: center;
-
-}
 footer{
     display:flex;
 
     background-color: black;
     /* border: 2px solid burlywood; */
+    margin-top: 30px;
     padding: 30px;
     
 
@@ -38,21 +64,24 @@ main {
 
 .venstreBoks {
     color: white;
-    width: 500px;
+    min-width: 500px;;
+    /* border: 2px solid red; */
 
     margin: 20px;
-    padding: 5px 15px 15px 15px;
+    padding: 50px 15px 15px 75px;
 }
 
 .høyreBoks {
     border: 3px solid black;
     color: white;
 
-    margin: 20px 20px 20px 80px;
+    
+    margin: 50px 300px;
+   
     padding: 5px;
     
     width: 350px;
-    height: 440px;
+    height: 450px;
 
     box-shadow: 5px 5px 10px burlywood;
 }
@@ -119,11 +148,15 @@ button {
     color: black;;
 
     padding: 50px;
+   
     margin-left: 100px;
-    margin-right: 180px;  /* Her kan vi velge avstanden for emojien til tekst */
+    margin-right: 480px;  /* Her kan vi velge avstanden for emojien til tekst */
 }
 
 .emojie {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    
+    margin-top: 50px;
+
 }
